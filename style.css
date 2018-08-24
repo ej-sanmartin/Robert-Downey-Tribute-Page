@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("http://hdqwalls.com/wallpapers/iron-man-simple-1-image.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  font-family: 'Roboto', sans-serif;
+  color: #f4d5d5;
+}
+
+main {
+  text-align: center;
+}
+
+/* Mobile devices */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  main {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  
+  #img-caption {
+    width: 75%;
+  }
+  
+  article {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+
+/* Larger screens */
+@media only screen and (min-device-width : 481px) {
+  main {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  
+  #img-caption {
+    width: 25%;
+  }
+  
+  article {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+}
+
+#title {
+  margin: .25em;
+}
+
+h2 {
+  margin: 0.5em;
+}
+
+#img-div {
+  margin: auto;
+  width: 100%;
+}
+
+#image {
+  margin: auto;
+  max-width: 300px;
+  max-height: 350px;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  background-color: rgba(121, 77, 100, 0.7);
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 1em;
+  margin-top: 1.5em;
+}
+
+#tribute-link {
+  text-align: center;
+}
+
+article {
+  text-align: left;
+  background-color: rgba(121, 77, 100, 0.7);
+  display: inline-block;
+  padding: 1em;
+  padding-top: 0.2em;
+  margin-top: 1.5em;
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 0.1em;
+}
+
+.bio-start {
+  margin-top: 0.5em;
+}
+
+.bio-start::first-letter {
+  font-size: 175%;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#tribute-link {
+  color: pink;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  color: #794d64;
+}
+
+#tribute-link:active {
+  color: white;
+}
